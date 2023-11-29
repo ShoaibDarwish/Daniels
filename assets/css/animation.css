@@ -1,0 +1,186 @@
+/* * >=============>Start Animation At Header <==============< */
+
+/* ^ start animation */
+h4.key{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 26px;
+    text-transform: capitalize;
+    animation: all 2s infinite;
+  }
+  h4.key .co::before{
+    content: "";
+    color: #fff;
+    animation: word 12s infinite;
+  }
+  h4.key::after{
+    content: "";
+    position: relative;
+    width:0 ;
+    height: 100%;
+    right: -8px;
+    animation: typing 20s steps(14) infinite;
+  }
+  @keyframes typing{
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    52%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width:calc(100%+ 16px)
+  }}
+  /* DesignerDesignerDeveloper */
+  @keyframes word{
+    0%{
+        content: "De";
+        width: 0;
+    }
+    2%{
+        content: "D";
+        width:20%;
+    }
+    4%{
+        content: "De";
+    }
+    6%{
+        content: "Des";   
+    }
+    8%{
+        content: "Desi";   
+    }
+    10%{
+        content: "Desig";   
+    }
+    12%{
+        content: "Design";   
+    }
+    14%{
+        content: "Designe";   
+    }
+    18%{
+        content: "Designer";   
+    }
+    22%{
+        content: "Designe";   
+    }
+    24%{
+        content: "Design";   
+    }
+    26%{
+        content: "Desig";   
+    }
+    28%{
+        content: "Desi";   
+    }
+    30%{
+        content: "Des";   
+    }
+    32%{
+        content: "De";   
+    }
+    34%{
+        content: "D";   
+    }
+    36%{
+        content: "De";   
+    }
+    38%{
+        content: "Dev";   
+    }
+    40%{
+        content: "Deve";   
+    }
+    42%{
+        content: "Devel";   
+    }
+    44%{
+        content: "Develo";   
+    }
+    46%{
+        content: "Develop";   
+    }
+    48%{
+        content: "Develope";   
+    }
+    52%{
+        content: "Developer";   
+    }
+    54%{
+        content: "Develope";   
+    }
+    56%{
+        content: "Develop";   
+    }
+    58%{
+        content: "Develo";   
+    }
+    60%{
+        content: "Devel";   
+    }
+    62%{
+        content: "Deve";   
+    }
+    64%{
+        content: "Dev";   
+    }
+    66%{
+        content: "De";   
+    }
+    68%{
+        content: "D";   
+    }
+    70%{
+        content: " ";   
+    }
+    72%{
+        content: "L";   
+    }
+    74%{
+        content: "La";   
+    }
+    76%{
+        content: "Lar";   
+    }
+    78%{
+        content: "Larr";   
+    }
+    80%{
+        content: "Larry";   
+    }
+    68%{
+        content: "Larry ";   
+    }
+    82%{
+        content: "Larry  D";   
+    }
+    84%{
+        content: "Larry  Da";   
+    }
+    86%{
+        content: "Larry  Dan";   
+    }
+    88%{
+        content: "Larry  Dani";   
+    }
+    90%{
+        content: "Larry  Danie";   
+    }
+    92%{
+        content: "Larry  Daniel";   
+    }
+    94%{
+        content: "Larry  Daniels";   
+    }
+    96%{
+        content: "Larry  Daniel";   
+    }
+    98%{
+        content: "Larry  Danie";   
+    }
+    98%{
+        content: "Larry  Dani";   
+    }
+  }
+  
+/* * >=============>End Animation At Header <==============< */
